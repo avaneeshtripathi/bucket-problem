@@ -1,8 +1,7 @@
-# Bucket Problem
-Select Items move items between buckets to and fro.
+Demo here: https://rawgit.com/avaneeshtripathi/React-Assignments/master/bucket-problem/Solution/index.html
 
-
-Demo: https://rawgit.com/avaneeshtripathi/React-Assignments/master/bucket-problem/Solution/index.html
+Read Me
+===================
 
 How to Run
   1. Go to the solution folder.

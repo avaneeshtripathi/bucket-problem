@@ -1,0 +1,97 @@
+body {
+  font-family: 'Roboto', 'Sans Serif';
+  font-size: 16px;
+  line-height: 18px;
+}
+
+header {
+  padding: 20px;
+  border: 1px solid #000;
+  text-align: center;
+  font-size: 20px;
+  line-height: 22px;
+}
+
+.container {
+  width: 1140px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.bucketWrapper {
+  border: 1px solid #000;
+  border-top: none;
+  width: 350px;
+  min-height: 500px;
+}
+
+.bucketWrapper.leftBucket {
+  float: left
+}
+
+.bucketWrapper.rightBucket {
+  float: right
+}
+
+.bucketWrapper ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.bucketWrapper .listItem {
+  border-bottom: 1px solid #000;
+  position: relative;
+}
+
+.bucketWrapper .listItem:first-child {
+  border-top: none;
+}
+
+.bucketWrapper .listItem .itemName {
+  padding: 20px 10px;
+  display: block;
+  background: #fff;
+  cursor: pointer;
+}
+
+.listItem .itemName.active {
+  background: #D3D3D3;
+}
+
+.bucketWrapper .listItem input {
+  z-index: -1;
+  position: absolute;
+}
+
+button {
+  text-align: center;
+  padding: 40px;
+  min-width: 170px;
+  border: 1px solid #000;
+  display: block;
+  margin: 0 auto 20px;
+  cursor: pointer;
+  position: absolute;
+  left: 50%;
+  margin-left: -75px;
+  background: #fff;
+}
+
+button.leftBucket {
+  top: 200px;
+}
+
+button.rightBucket {
+  top: 350px;
+}
+
+.noData {
+  padding: 20px 10px;
+  margin: 0;
+}
+
+.clearfix {
+  float: none;
+  clear: both;
+}

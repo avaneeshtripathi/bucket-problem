@@ -1,0 +1,22 @@
+ReactJS Challenge
+-------------------
+
+
+As part of this challenge, you are required to build a simple, 100% client side
+react component.
+
+Take a look at attached image. There be 2 lists and 2 buttons between the lists.
+User should be able to select/multi-select items from either list and move it to the
+other list. It should work both ways
+
+Solution should be provided as ready to run, if any configuration is required then
+it should be documented.
+
+Solution will be evaluated on the basis of (not necessarily in the order):
+- accuracy of the output
+- code architecture
+- adherence to flux
+- code sanity - comments, indentation etc
+
+
+All the best!
